@@ -13,7 +13,7 @@ npx gen-pm-meta
 The below as JSON:
 
 - `process.env.npm_execpath`
-- `npm_config_user_agent`
+- `process.npm_config_user_agent`
 
 
 ## ©️ License
