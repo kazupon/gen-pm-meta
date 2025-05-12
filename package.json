@@ -1,0 +1,44 @@
+{
+  "name": "gen-pm-meta",
+  "version": "0.0.0",
+  "description": "Generate package manager meta",
+  "author": {
+    "name": "kazuya kawaguchi",
+    "email": "kawakazu80@gmail.com"
+  },
+  "license": "MIT",
+  "funding": "https://github.com/sponsors/kazupon",
+  "bugs": {
+    "url": "https://github.com/kazupon/gen-pm-meta/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kazupon/gen-pm-meta.git"
+  },
+  "keywords": [
+    "pacakge manager",
+    "npm",
+    "npx",
+    "yarn",
+    "yarn-dlx",
+    "pnpm",
+    "pnpx",
+    "pnpm-dlx",
+    "bun",
+    "bunx"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">= 20"
+  },
+  "type": "module",
+  "bin": {
+    "gen-pm-meta": "index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "packageManager": "pnpm@10.10.0"
+}
